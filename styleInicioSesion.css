@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b87ed1; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh;
+    margin: 0;
+}
+/* Acomodar logo*/
+.areaLogo {
+    position: absolute; 
+    top: 10px; 
+    left: 15px; 
+    margin: 0;
+    padding: 0;
+}
+
+/*Recuadro de los campos*/
+.recuadro {
+    background-color: #f3d2ff; 
+    padding: 20px 30px;
+    border-radius: 8px; 
+    width: 300px;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(75, 15, 91);
+    margin-bottom: 20px;
+}
+
+/*Separa los campos y textos*/
+.input-group {
+    margin-bottom: 15px;
+}
+
+/*Formato para el texto*/
+.input-group label {
+    display: block; 
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #331237;
+}
+
+/*Formato para el campo*/
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(75, 15, 91); 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+a{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(75, 15, 91);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
